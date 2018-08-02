@@ -72,6 +72,8 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+*.bat
+
 # pyenv
 .python-version
 
@@ -102,3 +104,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Netbeans project; Spyder project
+nbproject
+nbproject.*
+nbproject/*
+.spyderproject
